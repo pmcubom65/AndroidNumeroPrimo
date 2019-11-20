@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:text="Esta es una app muy interesante, no debería ser abandonada nunca. Por favor confirme su eleccion"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp" />
+
+    <RadioGroup
+        android:id="@+id/grupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No" />
+
+        <RadioButton
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botonako"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Button" />
+</LinearLayout>
